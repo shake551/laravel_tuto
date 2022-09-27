@@ -22,6 +22,9 @@
                 </div>
             @endforeach
         </div>
+        <div>
+            ログインユーザー: {{ Auth::user()->name }}
+        </div>
         <div class='paginate'>
             {{ $posts->links() }}
         </div>
