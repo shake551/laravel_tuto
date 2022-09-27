@@ -18,7 +18,6 @@
                         </a>
                     </h2>
                     <p class='body'>{{ $post->body }}</p>
-                    <a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>
                 </div>
             @endforeach
         </div>
