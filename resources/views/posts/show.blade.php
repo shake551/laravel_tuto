@@ -16,6 +16,7 @@
                 <h3>本文</h3>
                 <p>{{ $post->body }}</p>
                 <p class="edit">[<a href="/posts/{{ $post->id }}/edit">edit</a>]</p>
+                <a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>
             </div>
         </div>
         <div class="footer">
